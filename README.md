@@ -259,4 +259,5 @@ case 5:
     );
     break;
 ```
+### Hasil
 ![Keluar](DataMahasiswa/foto/Keluar.png)
