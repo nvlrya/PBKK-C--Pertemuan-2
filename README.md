@@ -76,6 +76,7 @@ Fitur ini digunakan untuk menambahkan data mahasiswa baru ke dalam sistem. Pengg
             );
         }
 ```
+### Hasil
 ![Tambah Mahasiswa](DataMahasiswa/foto/TambahMahasiswa.png)
 
 ## 3. Tampilkan Mahasiswa
