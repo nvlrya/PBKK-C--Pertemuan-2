@@ -129,6 +129,7 @@ Fitur ini digunakan untuk menampilkan seluruh data mahasiswa yang sudah ditambah
             );
         }
 ```
+### Hasil
 ![Tampilkan Mahasiswa](DataMahasiswa/foto/TampilkanMahasiswa.png)
 
 ## 4. Cari Mahasiswa
@@ -190,6 +191,7 @@ Fitur ini digunakan untuk mencari data mahasiswa berdasarkan NIM. Pengguna cukup
             }
         }
 ```
+### Hasil
 ![Cari Mahasiswa](DataMahasiswa/foto/CariMahasiswa.png)
 
 ## 5. Hapus Mahasiswa
@@ -243,6 +245,7 @@ Fitur ini digunakan untuk menghapus data mahasiswa yang sudah tersimpan. Penggun
     }
 }
 ```
+### Hasil
 ![Hapus Mahasiswa](DataMahasiswa/foto/HapusMahasiswa.png)
 
 ## 6. Keluar
