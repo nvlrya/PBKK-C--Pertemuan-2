@@ -1,0 +1,14 @@
+D:\NaufalNA\PBKK\DataMahasiswa\bin\Debug\net10.0\DataMahasiswa.exe
+D:\NaufalNA\PBKK\DataMahasiswa\bin\Debug\net10.0\DataMahasiswa.deps.json
+D:\NaufalNA\PBKK\DataMahasiswa\bin\Debug\net10.0\DataMahasiswa.runtimeconfig.json
+D:\NaufalNA\PBKK\DataMahasiswa\bin\Debug\net10.0\DataMahasiswa.dll
+D:\NaufalNA\PBKK\DataMahasiswa\bin\Debug\net10.0\DataMahasiswa.pdb
+D:\NaufalNA\PBKK\DataMahasiswa\obj\Debug\net10.0\DataMahasiswa.GeneratedMSBuildEditorConfig.editorconfig
+D:\NaufalNA\PBKK\DataMahasiswa\obj\Debug\net10.0\DataMahasiswa.AssemblyInfoInputs.cache
+D:\NaufalNA\PBKK\DataMahasiswa\obj\Debug\net10.0\DataMahasiswa.AssemblyInfo.cs
+D:\NaufalNA\PBKK\DataMahasiswa\obj\Debug\net10.0\DataMahasiswa.csproj.CoreCompileInputs.cache
+D:\NaufalNA\PBKK\DataMahasiswa\obj\Debug\net10.0\DataMahasiswa.dll
+D:\NaufalNA\PBKK\DataMahasiswa\obj\Debug\net10.0\refint\DataMahasiswa.dll
+D:\NaufalNA\PBKK\DataMahasiswa\obj\Debug\net10.0\DataMahasiswa.pdb
+D:\NaufalNA\PBKK\DataMahasiswa\obj\Debug\net10.0\DataMahasiswa.genruntimeconfig.cache
+D:\NaufalNA\PBKK\DataMahasiswa\obj\Debug\net10.0\ref\DataMahasiswa.dll
