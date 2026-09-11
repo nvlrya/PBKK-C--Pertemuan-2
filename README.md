@@ -124,3 +124,125 @@ Fitur ini digunakan untuk menampilkan seluruh data mahasiswa yang sudah ditambah
             );
         }
 ```
+## 4. Cari Mahasiswa
+
+Fitur ini digunakan untuk mencari data mahasiswa berdasarkan NIM. Pengguna cukup memasukkan NIM yang ingin dicari, kemudian program akan memeriksa data yang sudah tersimpan. Jika ditemukan, data mahasiswa akan ditampilkan.
+
+```csharp
+   static void CariMahasiswa()
+        {
+            Console.Clear();
+
+            Console.WriteLine("========================================");
+            Console.WriteLine(" CARI MAHASISWA");
+            Console.WriteLine("========================================");
+
+            Console.Write("Masukkan NIM: ");
+            string nimCari = Console.ReadLine();
+
+            Mahasiswa mahasiswaDitemukan = null;
+
+            foreach (Mahasiswa m in daftarMahasiswa)
+            {
+                if (m.NIM.Equals(
+                    nimCari,
+                    StringComparison.OrdinalIgnoreCase))
+                {
+                    mahasiswaDitemukan = m;
+                    break;
+                }
+            }
+
+            Console.WriteLine();
+
+            if (mahasiswaDitemukan != null)
+            {
+                Console.WriteLine("Data ditemukan!");
+
+                Console.WriteLine(
+                    "NIM : " + mahasiswaDitemukan.NIM
+                );
+
+                Console.WriteLine(
+                    "Nama : " + mahasiswaDitemukan.Nama
+                );
+
+                Console.WriteLine(
+                    "Prodi : " + mahasiswaDitemukan.Prodi
+                );
+
+                Console.WriteLine(
+                    "IPK : " + mahasiswaDitemukan.IPK.ToString("F2")
+                );
+            }
+            else
+            {
+                Console.WriteLine(
+                    "Mahasiswa dengan NIM tersebut tidak ditemukan."
+                );
+            }
+        }
+```
+
+## 5. Hapus Mahasiswa
+
+Fitur ini digunakan untuk menghapus data mahasiswa yang sudah tersimpan. Pengguna memasukkan NIM mahasiswa yang ingin dihapus, kemudian program akan mencari data tersebut. Jika ditemukan, data akan dihapus dari sistem.
+
+```csharp
+   static void HapusMahasiswa()
+        {
+            Console.Clear();
+
+            Console.WriteLine("========================================");
+            Console.WriteLine(" HAPUS MAHASISWA");
+            Console.WriteLine("========================================");
+
+            Console.Write("Masukkan NIM: ");
+            string nimHapus = Console.ReadLine();
+
+            Mahasiswa mahasiswaDitemukan = null;
+
+            foreach (Mahasiswa m in daftarMahasiswa)
+            {
+                if (m.NIM.Equals(
+                    nimHapus,
+                    StringComparison.OrdinalIgnoreCase))
+                {
+                    mahasiswaDitemukan = m;
+                    break;
+                }
+            }
+
+            if (mahasiswaDitemukan != null)
+            {
+                daftarMahasiswa.Remove(
+                    mahasiswaDitemukan
+                );
+
+                Console.WriteLine();
+                Console.WriteLine(
+                    "Data mahasiswa berhasil dihapus."
+                );
+            }
+            else
+            {
+                Console.WriteLine();
+                Console.WriteLine(
+                    "Data mahasiswa tidak ditemukan."
+                );
+            }
+        }
+    }
+}
+```
+## 6. Keluar
+
+Fitur ini digunakan untuk mengakhiri penggunaan program. Ketika pengguna memilih menu nomor 5, program akan menampilkan pesan terima kasih dan kemudian keluar dari perulangan menu.
+
+```csharp
+case 5:
+    Console.WriteLine(
+        "Terima kasih telah menggunakan program."
+    );
+    break;
+```
