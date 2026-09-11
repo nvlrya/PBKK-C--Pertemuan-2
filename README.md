@@ -76,6 +76,8 @@ Fitur ini digunakan untuk menambahkan data mahasiswa baru ke dalam sistem. Pengg
             );
         }
 ```
+![Tambah Mahasiswa](DataMahasiswa/foto/TambahMahasiswa.png)
+
 ## 3. Tampilkan Mahasiswa
 
 Fitur ini digunakan untuk menampilkan seluruh data mahasiswa yang sudah ditambahkan. Data akan ditampilkan dalam bentuk tabel yang berisi NIM, nama, program studi, dan IPK sehingga lebih mudah untuk dilihat.
@@ -126,6 +128,8 @@ Fitur ini digunakan untuk menampilkan seluruh data mahasiswa yang sudah ditambah
             );
         }
 ```
+![Tampilkan Mahasiswa](DataMahasiswa/foto/TampilkanMahasiswa.png)
+
 ## 4. Cari Mahasiswa
 
 Fitur ini digunakan untuk mencari data mahasiswa berdasarkan NIM. Pengguna cukup memasukkan NIM yang ingin dicari, kemudian program akan memeriksa data yang sudah tersimpan. Jika ditemukan, data mahasiswa akan ditampilkan.
@@ -185,6 +189,7 @@ Fitur ini digunakan untuk mencari data mahasiswa berdasarkan NIM. Pengguna cukup
             }
         }
 ```
+![Cari Mahasiswa](DataMahasiswa/foto/CariMahasiswa.png)
 
 ## 5. Hapus Mahasiswa
 
@@ -237,6 +242,8 @@ Fitur ini digunakan untuk menghapus data mahasiswa yang sudah tersimpan. Penggun
     }
 }
 ```
+![Hapus Mahasiswa](DataMahasiswa/foto/HapusMahasiswa.png)
+
 ## 6. Keluar
 
 Fitur ini digunakan untuk mengakhiri penggunaan program. Ketika pengguna memilih menu nomor 5, program akan menampilkan pesan terima kasih dan kemudian keluar dari perulangan menu.
@@ -248,3 +255,4 @@ case 5:
     );
     break;
 ```
+![Keluar](DataMahasiswa/foto/Keluar.png)
