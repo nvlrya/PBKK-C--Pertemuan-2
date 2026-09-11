@@ -8,7 +8,7 @@ Kelas: C <br>
 
 Saat program pertama kali dijalankan, pengguna akan melihat menu utama yang berisi beberapa pilihan. Pengguna dapat memilih fitur yang ingin digunakan dengan memasukkan nomor sesuai menu.
 
-![Menu Utama](foto/Menu.png)
+!(foto/Menu.png)
 
 Menu yang tersedia:
 - 1. Tambah Mahasiswa
