@@ -73,3 +73,54 @@ Fitur ini digunakan untuk menambahkan data mahasiswa baru ke dalam sistem. Pengg
                 "Data mahasiswa berhasil ditambahkan."
             );
         }
+```
+## 3. Tampilkan Mahasiswa
+
+Fitur ini digunakan untuk menampilkan seluruh data mahasiswa yang sudah ditambahkan. Data akan ditampilkan dalam bentuk tabel yang berisi NIM, nama, program studi, dan IPK sehingga lebih mudah untuk dilihat.
+
+```csharp
+      static void TampilkanMahasiswa()
+        {
+            Console.Clear();
+
+            Console.WriteLine("==========================================================");
+            Console.WriteLine(" DAFTAR MAHASISWA");
+            Console.WriteLine("==========================================================");
+
+            if (daftarMahasiswa.Count == 0)
+            {
+                Console.WriteLine(
+                    "Belum ada data mahasiswa."
+                );
+
+                return;
+            }
+
+            Console.WriteLine(
+                "{0,-12} {1,-20} {2,-20} {3,5}",
+                "NIM",
+                "Nama",
+                "Prodi",
+                "IPK"
+            );
+
+            Console.WriteLine(
+                "----------------------------------------------------------"
+            );
+
+            foreach (Mahasiswa m in daftarMahasiswa)
+            {
+                Console.WriteLine(
+                    "{0,-12} {1,-20} {2,-20} {3,5:F2}",
+                    m.NIM,
+                    m.Nama,
+                    m.Prodi,
+                    m.IPK
+                );
+            }
+
+            Console.WriteLine(
+                "=========================================================="
+            );
+        }
+```
